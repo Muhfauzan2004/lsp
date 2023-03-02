@@ -14,7 +14,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <a class="navbar-brand" href="#">FAKBAR PRINTER</a>
+      <a class="navbar-brand" href="#">FAKBAR PRINTERS</a>
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link active me-4" href="produk.php">Produk</a>
