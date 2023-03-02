@@ -39,9 +39,9 @@ require "navbar.php";
                         <td><?= $row["nama"] ?></td>
                         <td><?= $row["jumlah"] ?></td>
                         <?php if( $statustext === "Sudah Di Konfirmasi <br> Di Tanggal : " ) : ?>
-                            <td><button class="btn btn-info text-white w-100"><b><?= $statustext; echo date("d-m-y");?></b></button></td>
+                            <td><button type="" class="btn btn-info text-white w-100" ><b><?= $statustext; echo date("d-m-y");?></b></button></td>
                         <?php elseif($statustext === "Belum di Konfirmasi"): ?>
-                            <td><button class="btn btn-warning text-white w-100"><b><?= $statustext ?></b></button></td>
+                            <td><button type="" class="btn btn-warning text-white w-100"><b><?= $statustext ?></b></button></td>
                         <?php endif; ?>
                     </tr>
                     <?php endwhile; ?>
